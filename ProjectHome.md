@@ -1,0 +1,3 @@
+A bloom filter is "a space-efficient probabilistic data structure that is used to test whether an element is a member of a set" [1](http://en.wikipedia.org/wiki/Bloom_filter).
+
+This project aims to create an easy to use bloom filter module for pymongo [2](http://api.mongodb.org/python/1.7%2B/index.html). Furthermore, preliminary tests show promising speedups by using a bloom filter for tasks requiring set-membership testing.
